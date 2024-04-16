@@ -1,0 +1,85 @@
+body{
+    background-color:#f8f8f8b9;
+    width: 100%;
+	height: 104vh;
+	position: relative;    
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Flovepik.com%2Fimages%2Ftourism-background.html&psig=AOvVaw1w3weMMUugRoXc9Qf_HRy5&ust=1668605823769000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCR7J2nsPsCFQAAAAAdAAAAABAE') no-repeat center center/cover;
+}
+.logo span {
+    font-weight: bolder;
+    padding: 10px 15px;
+    font-size: 50px;
+}
+.name{
+    font-size: 18px;
+  }
+
+.wrapper h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.wrapper input {
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 35%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.wrapper .btn {
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 36%;
+    margin-left: 30.5%;
+    background-color: #4b4b4d;
+}
+
+.wrapper .btn:hover{
+    background-color: #a6a8ac;
+}
+
+.wrapper .signup {
+    text-align: center;
+    font-size: 20px;
+}
+
+.wrapper .signup a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.wrapper .signup a:hover {
+    color: rgb(228, 32, 32);
+    border-bottom: 2px solid rgb(228,32,32);
+}
+
+
+.wrapper {
+    background-color: #253841dc;
+    box-shadow: inset 30px 10px 150px #050505;
+    border: 3px solid black;
+    width: 40%;
+    height: 60vh;
+    margin: 90px auto;
+    border-radius: 30%;
+}
+
+@media screen and (max-width: 768px){
+    .wrapper {
+        background-color: #253841dc;
+        box-shadow: inset 30px 10px 150px #050505;
+        border: 3px solid black;
+        height: 90vh;
+        margin: 90px auto;
+        margin-bottom: 60px;
+        border-radius: 30%;
+    }
+}

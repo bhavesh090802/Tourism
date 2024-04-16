@@ -1,0 +1,37 @@
+.img1{
+   display: block;
+   align-items: center;
+
+}
+.img1 img{
+    justify-content: center;
+    border-radius: 10%;
+    width: 700px;
+    margin-left: 25%;
+}
+
+.para1{
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    visibility: visible;
+    animation-duration: 700ms;
+    animation-delay: 300ms;
+    animation-name: fadeInUp;
+    color: #3e65da;
+}
+.name{
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 614px){
+    .img1 img {
+        justify-content: center;
+        border-radius: 10%;
+        width: 400px;
+        margin-left: 21%;
+    }
+}

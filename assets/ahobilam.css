@@ -1,0 +1,139 @@
+.char img{
+    padding-left: 310px;
+    height: 650px;
+    display: block;
+}
+
+.name{
+    font-size: 18px;
+  }
+
+.para1{
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    visibility: visible;
+    animation-duration: 700ms;
+    animation-delay: 300ms;
+    animation-name: fadeInUp;
+    color: #010102;
+    display: block;
+}
+
+.row2 {
+    width: 100%;
+}
+
+.tour {
+    float: left;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.tour ul li {
+    border-bottom: 1px dotted #DDD;
+    position: relative;
+}
+
+h3 {
+    font-size: 24px;
+}
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+
+.label {
+    display: inline;
+    background-color: #f0ad4e;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.lab {
+    display: inline;
+    background-color: #5cb85c;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+.lab img{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.text{
+    text-align: center;
+}
+
+.tour .btn-1 {
+    margin-top: 20px;
+    margin-left: 79px;
+    border: 1px solid #5CB85C;
+    background-color: #5CB85C;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    user-select: none;
+}
+
+@media screen and (max-width: 614px){
+    .char img {
+    padding-left: 60px;
+    height: 600px;
+    width: 80%;
+    display: block;
+}
+}
